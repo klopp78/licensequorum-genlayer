@@ -1,0 +1,10 @@
+{
+  "name": "licensequorum-genlayer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "npm run contract:check && npm run contract:test",
+    "contract:check": "node scripts/check-contract.mjs",
+    "contract:test": "node scripts/test-lifecycle.mjs"
+  }
+}
